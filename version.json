@@ -1,0 +1,15 @@
+{
+  "latest_version": "0.7.5",
+  "release_date": "17/08/2026",
+  "title": "SceneVoice Studio v0.7.5 — Sincronismo Zero-Latency & Modelos Offline",
+  "changelog": [
+    "Sincronismo Zero-Latency com reset atômico de buffer no frame zero.",
+    "Correção de alinhamento 1:1 do playhead e das silhuetas de áudio.",
+    "Reamostragem automática de microfones para 48.000 Hz cristalinos.",
+    "Hall da Fama Global unificado com LivePix e Buy Me a Coffee."
+  ],
+  "download_url": "",
+  "sha256": "",
+  "file_size_mb": 0.0,
+  "is_critical": false
+}
