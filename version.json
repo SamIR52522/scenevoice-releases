@@ -1,15 +1,17 @@
 {
-  "latest_version": "0.7.5",
-  "release_date": "17/08/2026",
-  "title": "SceneVoice Studio v0.7.5 — Sincronismo Zero-Latency & Modelos Offline",
+  "version": "0.8.5",
+  "latest_version": "0.8.5",
+  "release_date": "2026-08-18",
+  "title": "SceneVoice Studio Pro v0.8.5 (Super Atualização de Estúdio)",
   "changelog": [
-    "Sincronismo Zero-Latency com reset atômico de buffer no frame zero.",
-    "Correção de alinhamento 1:1 do playhead e das silhuetas de áudio.",
-    "Reamostragem automática de microfones para 48.000 Hz cristalinos.",
-    "Hall da Fama Global unificado com LivePix e Buy Me a Coffee."
+    "Cabine de Dublagem Ampliada: Monitor de vídeo cinema HD (680x340), teleprompter nítido 18pt e onda sonora 65% maior.",
+    "Proteção Permanente de Cenas & Auto-Save: Projetos e takes nunca mais são descarregados, com restauração automática ao abrir.",
+    "Modo Collab com Multitarefa: Janela minimizável para a barra de tarefas permitindo usar o PC enquanto amigos dublam pelo celular.",
+    "Internacionalização Completa: Suporte oficial a 9 idiomas (PT, EN, ES, JA, FR, DE, IT, KO, ZH).",
+    "Motor de Áudio Ultra-Puro: Atenuação da voz antiga de até -80 dB e sincronização com latência zero."
   ],
-  "download_url": "",
-  "sha256": "",
-  "file_size_mb": 0.0,
+  "download_url": "https://github.com/SamIR52522/scenevoice-releases/releases/download/v0.8.5/SceneVoice_v0.8.5_update.zip",
+  "sha256": "3b8d6820e4fbb931555a2497050c1a8354479dade7ed38961be6ce9dbc365f78",
+  "file_size_mb": 1.47,
   "is_critical": false
 }
