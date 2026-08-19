@@ -8,10 +8,10 @@
     "Proteção Permanente de Cenas & Auto-Save: Projetos e takes nunca mais são descarregados, com restauração automática ao abrir.",
     "Modo Collab com Multitarefa: Janela minimizável para a barra de tarefas permitindo usar o PC enquanto amigos dublam pelo celular.",
     "Internacionalização Completa: Suporte oficial a 9 idiomas (PT, EN, ES, JA, FR, DE, IT, KO, ZH).",
-    "Motor de Áudio Ultra-Puro: Atenuação da voz antiga de até -80 dB e sincronização com latência zero."
+    "Motor de Áudio Ultra-Puro: Supressão anti-eco espectral, atenuação da voz antiga de até -80 dB e sincronização zero latência."
   ],
   "download_url": "https://github.com/SamIR52522/scenevoice-releases/releases/download/v0.8.5/SceneVoice_v0.8.5_update.zip",
-  "sha256": "4e19aff88c2d6c21377ff716576f263527a478241f085ace910c95001a97c22a",
-  "file_size_mb": 61.01,
+  "sha256": "de654205456735e3dd2abf1a404d4386b38c57c0fbf839c9e3000ceb98513169",
+  "file_size_mb": 301.4,
   "is_critical": false
 }
