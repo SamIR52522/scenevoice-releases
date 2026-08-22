@@ -1,17 +1,17 @@
 {
-  "version": "0.8.5",
-  "latest_version": "0.8.5",
-  "release_date": "2026-08-19",
-  "title": "SceneVoice Studio Pro v0.8.5 (Super Atualização de Estúdio)",
+  "version": "0.9.0",
+  "latest_version": "0.9.0",
+  "release_date": "2026-08-21",
+  "title": "SceneVoice Studio Pro v0.9.0 (Estúdio Mobile & Super Desempenho)",
   "changelog": [
-    "Cabine de Dublagem Ampliada: Monitor de vídeo cinema HD (680x340), teleprompter nítido 18pt e onda sonora 65% maior.",
-    "Proteção Permanente de Cenas & Auto-Save: Projetos e takes nunca mais são descarregados, com restauração automática ao abrir.",
-    "Modo Collab com Multitarefa: Janela minimizável para a barra de tarefas permitindo usar o PC enquanto amigos dublam pelo celular.",
-    "Internacionalização Completa: Suporte oficial a 9 idiomas (PT, EN, ES, JA, FR, DE, IT, KO, ZH).",
-    "Motor de Áudio Ultra-Puro: Supressão anti-eco espectral, atenuação da voz antiga de até -80 dB e sincronização zero latência."
+    "🎮 Collab Mobile Studio: Ouvir guia vocal nativo e meu take em tempo real com Web Audio API.",
+    "⚡ Otimização Extrema: Renderização de ondas sonoras 300x mais rápida para PCs fracos.",
+    "🎙️ Preservação de Áudio Original: Falas não gravadas mantêm o áudio de referência com zero duplicação.",
+    "🎧 Supressão Espectral: Anti-chiado e filtro passa-alta Butterworth para microfones USB.",
+    "🤖 Discord Bot: Reconhecimento inteligente e suporte nativo ao The Choicer Voicer."
   ],
-  "download_url": "https://github.com/SamIR52522/scenevoice-releases/releases/download/v0.8.5/SceneVoice_v0.8.5_update.zip",
-  "sha256": "de654205456735e3dd2abf1a404d4386b38c57c0fbf839c9e3000ceb98513169",
-  "file_size_mb": 301.4,
+  "download_url": "https://github.com/SamIR52522/scenevoice-releases/releases/download/v0.9.0/SceneVoice_v0.9.0_update.zip",
+  "sha256": "f94ec37fc60923c2429ea1b99e99db8738299464d9e5b382315dd1aaff49ac72",
+  "file_size_mb": 318.73,
   "is_critical": false
 }
