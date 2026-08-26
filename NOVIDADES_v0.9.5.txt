@@ -1,0 +1,56 @@
+================================================================================
+🎙️ SCENEVOICE STUDIO PRO — NOTAS COMPLETAS DA VERSÃO v0.9.5
+================================================================================
+
+Data de Lançamento: 25 de Agosto de 2026
+Status: Versão Oficial Estável
+
+--------------------------------------------------------------------------------
+🌟 TODAS AS NOVIDADES & MELHORIAS DA VERSÃO v0.9.5:
+--------------------------------------------------------------------------------
+
+1. 🎮 COLLAB MULTIPLAYER & CORREÇÃO DEFINITIVA DO NAVEGADOR
+   - Conexão PC-para-PC e PC-para-Celular via link global de alta velocidade.
+   - Correção total do áudio no navegador: áudio cristalino (WAV PCM 16-bit 44.1kHz).
+   - Correção das waveforms no navegador: sincronização proporcional em tempo real e no pós-take.
+
+2. 🎬 DOWNLOAD DO YOUTUBE COM OPÇÃO DE QUALIDADE & TRADUÇÃO DE FALAS
+   - Seletor de Qualidade do Vídeo: Máxima (4K/1080p), 1080p Full HD ou 720p HD Rápido.
+   - Tradução Automática de Falas: Traduza cenas estrangeiras direto para Português, Inglês ou Espanhol.
+
+3. 🎙️ CABINE DE GRAVAÇÃO COM PRÉ-ROLL & EQUALIZAÇÃO EM TEMPO REAL
+   - Pré-Roll Visual & Áudio: Contagem sonora e área de preparação antes do início da fala.
+   - Equalização e Monitoramento Visual: Feedback acústico em tempo real enquanto o ator grava.
+
+4. 🟢 LIVE COMMUNITY PRESENCE (PRESENÇA EM TEMPO REAL)
+   - Contador oficial de dubladores online na comunidade ('● 1 dublador online').
+   - Comunicação assíncrona com backend Supabase REST. 100% compatível com a Steam.
+
+5. 🎨 HARMONIZAÇÃO VISUAL PROFISSIONAL (PADRÃO PREMIERE / DAVINCI)
+   - Cabeçalho unificado com base escura de estúdio (#181e33) e bordas elegantes (#252d44).
+   - Cores concentradas em ícones vetoriais coloridos de alta fidelidade.
+
+6. ✨ NOVO MOTOR VETORIAL 24x24 COM MARGENS ANTI-CLIPPING
+   - Todos os 24 ícones SVG reescritos em espaço normalizado 24x24 com margem de segurança de 21%.
+   - Correção definitiva de recortes em ícones (como o microfone 'mic' da Cabine).
+
+7. ⚡ REBRANDING DOS MOTORES DE IA PROPRIETÁRIOS
+   - SceneVoice Titan (Alta precisão): Transcrição acústica offline de cinema.
+   - SceneVoice Express (Rápido): Transcrição rápida e leve.
+   - ViperPure: Isolamento vocal master HD ativo.
+
+8. 🎛️ TOOLBAR INTEGRADA DE ZOOM & NAVEGAÇÃO DA TIMELINE
+   - Barra compacta de DAW agrupando Zoom In, Zoom Out, Ver Tudo, Rolar Esq e Rolar Dir.
+   - Suporte aprimorado ao atalho Shift + Scroll e botão direito para arrasto lateral.
+
+9. ✂️ OTIMIZAÇÃO DA TABELA & TELEPROMPTER
+   - Eliminação de botões redundantes e botão 'Ouvir Trecho' de largura total.
+   - Ações de criação de falas ('Nova Fala', 'Inserir Fala Aqui') centralizadas e corrigidas.
+
+10. 🎵 RODAPÉ 100% LIMPO & PRESERVAÇÃO AUTOMÁTICA
+    - Preservação da trilha instrumental (BGM + SFX) 100% automática por baixo dos panos.
+    - Remoção de checkboxes obsoletos para um layout minimalista e profissional.
+
+================================================================================
+SceneVoice Studio — O Estúdio Definitivo de Dublagem Independente.
+================================================================================
