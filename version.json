@@ -1,21 +1,21 @@
 {
-  "version": "0.9.5",
-  "latest_version": "0.9.5",
-  "release_date": "2026-08-25",
-  "title": "SceneVoice Studio Pro v0.9.5 (Collab PC-PC, Pré-Roll, Tradução de Cenas, UI Harmonizada & Presença Real)",
+  "version": "0.9.6",
+  "latest_version": "0.9.6",
+  "release_date": "2026-08-26",
+  "title": "SceneVoice Studio Pro v0.9.6 (Collab PC-PC 100% Sincronizado, Whisper Titan Offline & YouTube 4K)",
   "changelog": [
-    "🎮 Collab Multiplayer PC-PC & Mobile: Conexão direta entre computadores e celulares com áudio cristalino WAV PCM 44.1kHz.",
-    "🌐 Correção Definitiva do Collab no Navegador: Áudio sem distorções e waveforms em tempo real proporcionais e sincronizadas.",
-    "🎬 Importador do YouTube Turbinado: Opção de qualidade (4K, 1080p, 720p) e tradução automática de falas para dublagem.",
+    "🎮 Collab Multiplayer PC-PC & Mobile Sincronizado: Conexão direta bi-direcional, download automático de takes de colegas e zero áudio antigo em cache.",
+    "🎙️ Transcrição & Legendas Automáticas Titan: Whisper offline com VAD estável e divisão precisa de falas em português e múltiplos idiomas.",
+    "🎬 Importador do YouTube Turbinado: Suporte a 4K, 1080p, 720p, Shorts e tradução automática de falas.",
     "⏱️ Pré-Roll & Equalizador na Cabine: Contagem de preparação sonora/visual e equalização/onda em tempo real ao gravar.",
     "🟢 Live Community Presence: Contador em tempo real de dubladores ativos na comunidade (● 1 dublador online).",
     "🎨 Harmonização de Design de Estúdio: Cabeçalho com paleta premium de DAW (Padrão Premiere / DaVinci Resolve).",
     "✨ Motor Vetorial 24x24 Anti-Clipping: Todos os 24 ícones SVG reescritos sem cortes em alta resolução.",
     "⚡ Rebranding dos Motores de IA: Motores proprietários SceneVoice Titan e ViperPure.",
-    "🎛️ Toolbar de Zoom & Navegação: Barra unificada de DAW com suporte refinado a Shift + Scroll."
+    "🛡️ Pacote de Update Blindado: 100% livre de arquivos .py com ferramentas FFmpeg e yt-dlp embutidas."
   ],
-  "download_url": "https://github.com/SamIR52522/scenevoice-releases/releases/download/v0.9.5/SceneVoice_v0.9.5_update.zip",
-  "sha256": "105bd6fe9c97d68a7de66030e48dac547d084865333c7762d69fccf3927bb12e",
-  "file_size_mb": 324.42,
+  "download_url": "https://github.com/SamIR52522/scenevoice-releases/releases/download/v0.9.6/SceneVoice_v0.9.6_update.zip",
+  "sha256": "5d18de7342052afbe460cfcb76029460e802eb093953c8c59b9128ed90e5749b",
+  "file_size_mb": 521.77,
   "is_critical": false
 }

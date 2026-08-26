@@ -1,0 +1,27 @@
+================================================================================
+                    SCENEVOICE STUDIO PRO — NOVIDADES v0.9.6
+================================================================================
+
+🚀 O QUE HÁ DE NOVO NA VERSÃO 0.9.6:
+
+1. 🎙️ TRANSCRIÇÃO & LEGENDAS AUTOMÁTICAS DEFINITIVAS:
+   - Motor Whisper Titan atualizado com modo VAD estável por frases.
+   - Suporte a áudios complexos com trilha sonora e efeitos sonoros sem erros.
+   - Detecção automática universal de idioma e separação inteligente de personagens.
+
+2. 🎬 IMPORTAÇÃO DO YOUTUBE ULTRA-RESILIENTE:
+   - Normalização automática de URLs (Shorts, mobile, links diretos).
+   - Localização automática do FFmpeg e yt-dlp em múltiplos diretórios de fallback.
+   - Resolução de todas as variáveis de download.
+
+3. ⚡ ABERTURA INSTANTÂNEA & OTIMIZAÇÃO DE PERFORMANCE:
+   - Inicialização em menos de 0.4s no Windows.
+   - Zero consumo de CPU em repouso com decimação vetorial de ondas.
+
+4. 🛡️ SEGURANÇA & PACOTES BLINDADOS:
+   - Pacote de atualização limpo sem qualquer código-fonte .py residual.
+   - Higienização automática de arquivos temporários ao iniciar.
+
+================================================================================
+          SceneVoice Studio — Desenvolvido para a Comunidade de Dublagem
+================================================================================
