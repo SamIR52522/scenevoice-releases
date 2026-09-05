@@ -1,19 +1,16 @@
 {
-  "version": "0.9.9.29",
-  "latest_version": "0.9.9.29",
-  "type": "full",
-  "release_date": "2026-09-04",
-  "title": "SceneVoice Studio Pro v0.9.9.29 (Isolamento de Takes no Collab & Estabilidade)",
+  "latest_version": "0.9.9.30",
+  "version": "0.9.9.30",
+  "type": "patch",
+  "release_date": "2026-09-05",
+  "title": "SceneVoice v0.9.9.30 (Micro-Update)",
   "changelog": [
-    "🛡️ Isolamento Absoluto de Takes no Collab: Eliminação definitiva de vazamento de takes ao alternar ou importar novos vídeos.",
-    "📱 Preview Contínuo de Vídeo Mobile & Web: Resolução de congelamento de preview entre takes subsequentes.",
-    "⚡ Limpeza Atômica de RAM e Caches: Purgamento imediato de buffers de áudio na memória da cabine ao detectar troca de projeto.",
-    "🔄 Sincronização Automática com Host: Acompanhamento dinâmico das falas e papéis em tempo real.",
-    "📦 Atualização de Estabilidade v0.9.9: Atualização completa do executável com suporte permanente a micro-patches futuros."
+    "Correção na reprodução do áudio original de voz em Dub Packs importados",
+    "Sincronização do guia de áudio da fala no modo Collab"
   ],
-  "download_url": "https://github.com/SamIR52522/scenevoice-releases/releases/download/v0.9.9.29/SceneVoice_v0.9.9_update.zip",
-  "sha256": "76afdb3db9655c2c81931af745c6bfb2b2fd2799c2bb29fb7ab5e11a09d96c06",
-  "file_size_kb": 496514.2,
-  "file_size_mb": 484.88,
+  "download_url": "https://github.com/SamIR52522/scenevoice-releases/releases/download/v0.9.9.30/core.pak",
+  "sha256": "2119d50423f08a14750363402310f32de0c4dcecf413f0a515c82739a687cc37",
+  "file_size_kb": 840.2,
+  "file_size_mb": 0.821,
   "is_critical": false
 }
