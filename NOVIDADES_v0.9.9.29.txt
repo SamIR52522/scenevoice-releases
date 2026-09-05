@@ -1,0 +1,46 @@
+================================================================================
+  SCENEVOICE STUDIO PRO - NOVIDADES v0.9.9.29 (ISOLAMENTO COLLAB & ESTABILIDADE)
+================================================================================
+
+1. ISOLAMENTO ABSOLUTO DE TAKES NO MODO COLLAB (ZERO VAZAMENTO ENTRE PROJETOS)
+   - Resolvido em definitivo o problema onde, ao abrir ou importar um novo vídeo
+     após usar o Collab, a cabine no navegador ainda exibia e reproduzia os takes
+     gravados do vídeo/projeto anterior.
+   - Introduzido o identificador único de sessão de projeto (project_session_id)
+     gerado a cada novo vídeo importado, pipeline concluído ou carregamento.
+   - Purgamento atômico de memória no navegador: todos os buffers de áudio em
+     cache (AudioBuffers) e blobs de vídeo são imediatamente invalidados e
+     limpos ao detectar a troca de projeto pelo Host.
+   - Blindagem estrita nos endpoints HTTP (/audio/take/{id} e /waveform/{id}):
+     takes não gravados agora retornam estritamente HTTP 404 e ondas zeradas,
+     impedindo que áudios residuais no disco sejam indevidamente associados.
+
+2. PREVIEW DE VÍDEO CONTÍNUO E FLUIDO NO NAVEGADOR (SEM CONGELAMENTO NO TAKE 2+)
+   - Corrigido o erro em que o primeiro take exibia o corte de vídeo normalmente,
+     mas a partir do segundo take em diante o navegador travava exibindo apenas
+     a imagem estática do take.
+   - Sincronização e reinicialização automática do elemento HTML5 de vídeo entre
+     mudanças de takes na cabine web, garantindo reprodução contínua e suave em
+     todas as falas consecutivas.
+
+3. PACOTE DE ATUALIZAÇÃO BLINDADO & COMPATIBILIDADE TOTAL COM A VERSÃO 0.9.8
+   - Disponibilizado o pacote oficial completo de atualização (SceneVoice_v0.9.9_update.zip)
+     com verificação de integridade SHA-256 e suporte direto ao instalador da 0.9.8.
+   - Transição suave: o script de atualização do Windows faz backup automático
+     da versão 0.9.8 anterior e instala o novo executável e bibliotecas da 0.9.9.
+   - Executável já equipado de fábrica com o novo motor de Hot-Patching (patch_loader),
+     habilitando micro-atualizações futuras instantâneas (core.pak) em menos de 1 segundo.
+
+4. ESTABILIDADE DE PROCESSAMENTO DE VÍDEOS LONGOS
+   - Segmentação e gerenciamento de memória otimizados para transcrições e projetos
+     longos, prevenindo gargalos de carregamento em trechos avançados da linha do tempo.
+
+5. PRESERVAÇÃO INTEGRAL DOS MOTORES DE IA E MIXAGEM
+   - SceneScribe Titan IA (Faster-Whisper Large-v3-turbo) com VAD calibrado e
+     roteamento prioritário de vocais isolados.
+   - ViperPure AI™ (Band-Split RoFormer ONNX) garantindo cancelamento limpo da
+     voz original nos takes gravados e 100% de preservação de BGM e efeitos estéreo.
+
+================================================================================
+  Copyright (c) 2026 SceneVoice Studio. Todos os direitos reservados.
+================================================================================
