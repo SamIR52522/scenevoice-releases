@@ -1,0 +1,44 @@
+================================================================================
+  SCENEVOICE STUDIO PRO - NOVIDADES v0.9.9 (VERSAO ESTAVEL & ESTABILIDADE PRO)
+================================================================================
+
+1. MODELAGEM VOCAL DE PERSONAGEM & MATCH EQ (100% STEAM-SAFE)
+   - Sistema profissional de modelagem vocal via DSP analítico (SciPy/NumPy).
+   - Presets de estúdio: Match EQ com o Personagem Original, Herói Shonen,
+     Vilão Profundo, Voz Infantil, Rádio/Intercomunicador e Robô de Estúdio.
+   - Reversibilidade total (Voz Natural Desativada restaura o áudio bit a bit).
+   - Preservação física e permanente do take bruto original gravado pelo dublador.
+
+2. INTERNACIONALIZACAO COMPLETA EM TODAS AS ABAS
+   - Suporte dinâmico e expansão para 170 chaves com 100% de paridade em 9 idiomas:
+     Português, English, Español, 日本語, Français, Deutsch, Italiano, 한국어, 中文.
+   - Todas as abas (Casting Hub, Editor de Linhas, Timeline, Tabela e Cabine)
+     adaptam-se instantaneamente na troca de idioma no topo.
+
+3. CORRECAO DE PREVIEW NO COLLAB WEB & MOBILE (ZERO TELA PRETA)
+   - Amostragem de frame inteligente a 30% da fala, eliminando telas pretas
+     de transições com fade-in preto.
+   - Streaming dinâmico MP4 com redimensionamento otimizado (scale 480p).
+
+4. REPRODUCAO MASTER 100% PRECISA ('ASSISTIR COMPLETO')
+   - A mixagem interna em tempo real do player master soma perfeitamente
+     a trilha instrumental isolada (BGM + SFX) com as falas gravadas em memoria RAM
+     e caminhos relativos de projeto.
+   - Sincronismo temporal milissegundo a milissegundo no scrubber da linha do tempo.
+
+5. ESTABILIDADE DE GRAVACAO & ELIMINACAO TOTAL DE FREEZES
+   - Pre-aquecimento assincrono do subsistema de audio e drivers
+     WASAPI / DirectSound logo na abertura do aplicativo.
+   - Busca O(1) de frames ao clicar em 'Gravacao', 'Ouvir Original' e 'Meu Take'.
+
+6. NOVO ICONE OFICIAL MULTI-RESOLUCAO COM TRANSPARENCIA PURA
+   - Icone oficial do balaozinho de dublagem branco em formato multi-camadas PE
+     (16x16 a 256x256) com canal alfa no Windows 10 e Windows 11.
+
+7. COLLAB MULTIPLAYER & MOTORES DE IA
+   - Sincronia de video a mais de 145 FPS para Convidados Collab PC-para-PC.
+   - Isolamento acustico profissional de takes, Faster-Whisper Titan e ViperPure AI.
+
+================================================================================
+  Copyright (c) 2026 SceneVoice Studio. Todos os direitos reservados.
+================================================================================
