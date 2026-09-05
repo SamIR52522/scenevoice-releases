@@ -1,0 +1,36 @@
+================================================================================
+  SCENEVOICE STUDIO PRO - NOVIDADES v0.9.9.30 (DUB PACKS & ÁUDIO ORIGINAL)
+================================================================================
+
+1. CORREÇÃO DE ÁUDIO ORIGINAL EM DUB PACKS ("OUVIR ORIGINAL")
+   - Resolvido o problema em que, ao importar Dub Packs (pacotes de pasta do
+     The Choice Voicer ou arquivos .dubpack), o botão "Ouvir Original"
+     reproduzia apenas o instrumental de fundo sem a voz original do personagem.
+   - O importador agora sintetiza um áudio mestre composto (original_audio.wav),
+     posicionando todas as falas originais nos timestamps corretos sobre a trilha
+     instrumental de fundo (_backing_track.mp3).
+   - O reprodutor de referência (_get_reference_playback_mix) prioriza diretamente
+     o arquivo de voz original de cada fala (line.reference_audio) e faz a mixagem
+     balanceada com o instrumental de fundo (BGM + SFX), permitindo que o dublador
+     ouça perfeitamente a atuação de referência e a ambientação sonora da cena.
+   - Proteção de integridade: line.reference_audio nunca mais é sobrescrito ou
+     corrompido por caches temporários de backing track.
+
+2. VISUALIZADOR DE ONDA DA FALA DE REFERÊNCIA
+   - A forma de onda (waveform) de áudio original no canvas da cabine agora desenha
+     prioritariamente a silhueta da fala contida em line.reference_audio, facilitando
+     a identificação visual de pausas, respirações e ênfases da atuação original.
+
+3. STREAMING DO GUIA ORIGINAL NO MODO COLLAB / MOBILE
+   - Os endpoints de áudio de guia do servidor Collab (_handle_audio_orig e
+     _extract_precise_guide_audio) agora entregam o áudio isolado de referência
+     diretamente para os dubladores conectados pelo navegador ou celular.
+
+4. COMPATIBILIDADE E ESTABILIDADE
+   - Preservação total do isolamento de takes entre projetos no Collab (v0.9.9.29).
+   - Compatibilidade retroativa garantida com projetos legados e instalações v0.9.8.
+   - Atualização instantânea via Hot-Patching (core.pak).
+
+================================================================================
+  Copyright (c) 2026 SceneVoice Studio. Todos os direitos reservados.
+================================================================================
