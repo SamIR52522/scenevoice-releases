@@ -1,17 +1,18 @@
 {
-  "latest_version": "0.9.9.33",
-  "version": "0.9.9.33",
+  "latest_version": "0.9.9.34",
+  "version": "0.9.9.34",
   "type": "patch",
   "release_date": "2026-09-06",
-  "title": "SceneVoice v0.9.9.33 (Micro-Update)",
+  "title": "SceneVoice v0.9.9.34 (Micro-Update)",
   "changelog": [
-    "Download do YouTube em máxima qualidade (4K/1080p/720p60) e exportação Lanczos Cinema Master",
-    "Sistema oficial de 8 efeitos sonoros táteis da interface (UI SFX)",
-    "Correção de gravação de áudio no Collab via navegador web"
+    "Arquitetura ultra-modular (reducao de 87% do nucleo principal) e inicializacao em milissegundos",
+    "Controle dedicado de atalhos de estudio (hotkeys_controller) com deteccao inteligente de foco",
+    "Otimizacao de memoria RAM e cancelamento atomico de timers de CPU (anti-leaks)",
+    "Master Preview (Finale) com scrubber ultra-suave a 60 FPS lisos"
   ],
-  "download_url": "https://github.com/SamIR52522/scenevoice-releases/releases/download/v0.9.9.33/core.pak",
-  "sha256": "b9b262094be9b5125724deaf2eced0cf81f9cb96aab601d9d7e3660352c73360",
-  "file_size_kb": 2202.5,
-  "file_size_mb": 2.151,
+  "download_url": "https://github.com/SamIR52522/scenevoice-releases/releases/download/v0.9.9.34/core.pak",
+  "sha256": "3803909b39e52d3790a4632d6e41ba8df7e20b1cf8c30ad84a4f841bab4a9834",
+  "file_size_kb": 2261.6,
+  "file_size_mb": 2.209,
   "is_critical": false
 }
