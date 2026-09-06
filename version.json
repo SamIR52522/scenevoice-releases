@@ -1,16 +1,17 @@
 {
-  "latest_version": "0.9.9.30",
-  "version": "0.9.9.30",
+  "latest_version": "0.9.9.33",
+  "version": "0.9.9.33",
   "type": "patch",
-  "release_date": "2026-09-05",
-  "title": "SceneVoice v0.9.9.30 (Micro-Update)",
+  "release_date": "2026-09-06",
+  "title": "SceneVoice v0.9.9.33 (Micro-Update)",
   "changelog": [
-    "Correção na reprodução do áudio original de voz em Dub Packs importados",
-    "Sincronização do guia de áudio da fala no modo Collab"
+    "Download do YouTube em máxima qualidade (4K/1080p/720p60) e exportação Lanczos Cinema Master",
+    "Sistema oficial de 8 efeitos sonoros táteis da interface (UI SFX)",
+    "Correção de gravação de áudio no Collab via navegador web"
   ],
-  "download_url": "https://github.com/SamIR52522/scenevoice-releases/releases/download/v0.9.9.30/core.pak",
-  "sha256": "2119d50423f08a14750363402310f32de0c4dcecf413f0a515c82739a687cc37",
-  "file_size_kb": 840.2,
-  "file_size_mb": 0.821,
+  "download_url": "https://github.com/SamIR52522/scenevoice-releases/releases/download/v0.9.9.33/core.pak",
+  "sha256": "b9b262094be9b5125724deaf2eced0cf81f9cb96aab601d9d7e3660352c73360",
+  "file_size_kb": 2202.5,
+  "file_size_mb": 2.151,
   "is_critical": false
 }

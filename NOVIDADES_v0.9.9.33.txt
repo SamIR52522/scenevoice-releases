@@ -1,0 +1,50 @@
+================================================================================
+  SCENEVOICE STUDIO PRO - NOVIDADES v0.9.9.33 (ÁUDIO SFX & YOUTUBE MÁXIMA QUALIDADE)
+================================================================================
+
+1. DOWNLOAD DO YOUTUBE EM MÁXIMA DEFINIÇÃO (4K / 1080p / 720p60) & EXPORTAÇÃO MASTER
+   - Resolvido o problema em que downloads do YouTube caíam no fallback de 360p de
+     baixa qualidade devido a parâmetros de extração do cliente Android do yt-dlp.
+   - O downloader agora seleciona dinamicamente as melhores streams de vídeo e áudio
+     disponíveis no YouTube, garantindo preservação de 1080p, 1440p e até 4K nativos.
+   - Implementado corte milimétrico no tempo com --force-keyframes-at-cuts,
+     evitando travamento ou tela preta nos primeiros segundos da cena importada.
+   - Exportação Inteligente de Cinema: O exportador de vídeo agora faz análise prévia
+     da resolução original:
+     * Para vídeos 720p, 1080p ou 4K: Mantém master direto ou stream-copy CRF 12
+       com máxima fidelidade aos quadros originais.
+     * Para resoluções inferiores a 720p: Realiza upscale inteligente com filtro
+       Lanczos de alta precisão (scale=-2:1080:flags=lanczos+accurate_rnd) em perfil
+       CRF 14 Master High Profile, entregando renderização nítida sem pixelização.
+   - A interface de exportação e a aba Finalize agora detectam e exibem em tempo real
+     a resolução nativa da fonte.
+
+2. SISTEMA OFICIAL DE EFEITOS SONOROS TÁTEIS DA INTERFACE (UI SFX)
+   - Integração completa dos 8 efeitos sonoros táteis e imersivos para feedback sonoro
+     em tempo real durante todo o fluxo de trabalho no estúdio:
+     * Clique em abas e navegação entre falas (click.wav).
+     * Início imediato de gravação de take (record_start.wav).
+     * Parada e salvamento automático do take (record_stop.wav).
+     * Descarte/exclusão de take (delete_take.wav).
+     * Conclusão com sucesso de exportação ou download (success.wav).
+     * Alertas de cancelamento ou aviso (warning.wav).
+     * Dublador entrou na sala Collab (collab_join.wav).
+     * Dublador saiu da sala Collab (collab_leave.wav).
+   - Motor de reprodução assíncrono via winsound nativo do Windows com zero latência
+     e sem congelamento ou interrupção da thread principal da interface.
+   - Interruptor dedicado nas Configurações do Studio ("Efeitos Sonoros da Interface")
+     para habilitar ou silenciar os sons da UI a qualquer momento.
+   - Os arquivos de som são embutidos e auto-extraídos pelo pacote core.pak, funcionando
+     instantaneamente tanto em instalações existentes quanto em novas.
+
+3. CORREÇÃO NA GRAVAÇÃO DO MODO COLLAB WEB/NAVEGADOR
+   - Corrigido o suporte a codecs de áudio no navegador para o estúdio móvel/web do Collab,
+     assegurando gravação limpa e decodificação automática de WebM/Opus e WAV sem perdas.
+
+4. ATUALIZAÇÃO INSTANTÂNEA VIA HOT-PATCHING (core.pak)
+   - Atualização aplicada de forma 100% transparente através do pacote core.pak.
+   - Compatibilidade total preservada com todos os projetos existentes e Dub Packs.
+
+================================================================================
+  Copyright (c) 2026 SceneVoice Studio. Todos os direitos reservados.
+================================================================================
