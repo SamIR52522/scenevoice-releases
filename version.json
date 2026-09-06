@@ -1,19 +1,18 @@
 {
-  "latest_version": "0.9.9.35",
-  "version": "0.9.9.35",
+  "latest_version": "0.9.9.36",
+  "version": "0.9.9.36",
   "type": "patch",
   "release_date": "2026-09-06",
-  "title": "SceneVoice v0.9.9.35 (Micro-Update)",
+  "title": "SceneVoice v0.9.9.36 (Micro-Update)",
   "changelog": [
-    "Correcao definitiva na inicializacao: resolucao de facades e delegates de historico e timeline",
-    "Arquitetura ultra-modular (reducao de 87% do nucleo principal) com carregamento em milissegundos",
-    "Novo gerenciador dedicado de renomeacao em massa de personagens com suporte a Undo/Redo",
-    "Renderizacao comparativa de waveform ultra-fluida e scrubber de alta fidelidade",
-    "Otimizacao profunda de memoria RAM e isolamento de processos anti-leaks"
+    "Correcao no Video Preview do Editor de Falas (extracao dinamica de frame de video)",
+    "Restauracao completa da agulha Playhead da timeline no Editor e na Cabine",
+    "Suporte ultra-robusto a argumentos de agulha e prevencao de interrupcao de clock",
+    "Renderizacao comparativa Silhouette com agulha Playhead sempre visivel em repouso e reproducao"
   ],
-  "download_url": "https://github.com/SamIR52522/scenevoice-releases/releases/download/v0.9.9.35/core.pak",
-  "sha256": "866450086b8d14e781b45fe1c22b9837742278dd90829040328df973c015065f",
-  "file_size_kb": 2276.4,
-  "file_size_mb": 2.223,
+  "download_url": "https://github.com/SamIR52522/scenevoice-releases/releases/download/v0.9.9.36/core.pak",
+  "sha256": "055d5ff9369180c28c6d3a1061cfa2883c11b3fa368b84f235c36e3b9be17893",
+  "file_size_kb": 2277.9,
+  "file_size_mb": 2.225,
   "is_critical": false
 }
