@@ -1,0 +1,45 @@
+================================================================================
+  SCENEVOICE STUDIO PRO - NOVIDADES v0.9.12 (DRAG & DROP NUDGE & ESTABILIDADE)
+================================================================================
+
+1. AJUSTE FINO DE SINCRONIA ARRASTANDO NA ONDA (DRAG & DROP NUDGE)
+   - Clique e arraste livremente com o mouse sobre a forma de onda verde do take
+     para ajustar a sincronia milissegundo a milissegundo em tempo real a 60 FPS.
+   - HUD Flutuante Dinamico: Badge moderno que acompanha o ponteiro exibindo o
+     deslocamento exato em milissegundos (+45ms, -30ms).
+   - Silhueta Fantasma (Ghost Outline): Mostra o ponto de origem da onda para que
+     voce possa comparar visualmente com a nova posicao.
+   - Snap Magnetico no Zero: A onda gruda suavemente em 0ms caso voce queira
+     retornar a sincronia original com precisao cirurgica.
+   - Micro-Ajustes na Rodinha do Mouse: Gire o scroll sobre a forma de onda para
+     empurrar o take em passos de 25ms para a esquerda ou direita.
+   - Atalho Alt + Arraste na Timeline: Na aba Lab/Editor, segure Alt e arraste o
+     bloco da fala gravada para realizar slip edit no audio do take.
+
+2. ENCERRAMENTO LIMPO & ANTI-PROCESSO ZUMBI
+   - Liberacao Imediata da Trava do Windows: O handle da Named Mutex de sessao
+     e liberado no milissegundo em que a janela fecha, permitindo que o SceneVoice
+     seja reaberto instantaneamente sem atrasos de processos anteriores.
+   - Desalocacao Completa do Motor Nativo MPV: Destruicao atomica do contexto C-API
+     da biblioteca libmpv e desalocacao de swapchains Direct3D 11 na GPU.
+   - Teardown Seguro de Hardware e Threads: Parada dos streams do sounddevice e
+     cancelamento de todas as tarefas de worker em background.
+
+3. LIMPEZA AUTOMATICA DE CACHE (HIGIENE DE DISCO)
+   - Purga Inteligente de Previews e Rascunhos: Remocao automatica e silenciosa
+     de arquivos temporarios de mixagem (finale_preview_mix.wav, take_mix_*.wav,
+     scratch_*.wav, *.tmp) ao alternar projetos e ao fechar o app.
+   - Eliminacao de Takes Orfaos Substituidos: Takes descartados apos multiplas
+     regravacoes de uma mesma fala sao limpos automaticamente, poupando gigabytes
+     no seu SSD sem jamais tocar nos arquivos vitais da cena.
+
+4. PROTECAO CONTRA MICROFONE DESCONECTADO (HOT-PLUG SEM CRASH)
+   - Validacao Ativa de Hardware: Se o headset Bluetooth descarregar ou o cabo USB
+     for desconectado, o SceneVoice detecta imediatamente e faz o fallback suave
+     para o microfone padrao do Windows, emitindo um aviso visual discreto.
+   - Protecao de Cabo Puxado Durante o Take: Se a desconexao ocorrer no meio da
+     atuacao, a gravacao e finalizada sem travar o programa e o audio e preservado.
+
+================================================================================
+  Copyright (c) 2026 SceneVoice Studio. Todos os direitos reservados.
+================================================================================
