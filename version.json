@@ -6,13 +6,14 @@
   "title": "SceneVoice v0.9.10 (Micro-Update)",
   "changelog": [
     "Resolucao definitiva do Auto-Updater para clientes 0.9.9 com deteccao instantanea",
+    "Eliminacao de notificacao redundante pos-atualizacao via deteccao de patch ativo",
     "Video preview dinamico no Editor de Falas sem tela preta",
     "Restauracao da agulha Playhead da timeline visivel em repouso e reproducao 60 FPS",
     "Arquitetura ultra-modular com controllers independentes"
   ],
   "download_url": "https://github.com/SamIR52522/scenevoice-releases/releases/download/v0.9.10/core.pak",
-  "sha256": "1053300d6a32d740550031894b2b9fe873c41f3ade49f10787ebd4c89cc5710c",
-  "file_size_kb": 2280.4,
-  "file_size_mb": 2.227,
+  "sha256": "73dc0688e27fc1ae53fe93208c89891f6b63272df2495e5902df47a42c364dd0",
+  "file_size_kb": 2282.5,
+  "file_size_mb": 2.229,
   "is_critical": false
 }
