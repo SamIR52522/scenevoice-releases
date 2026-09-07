@@ -2,7 +2,7 @@
   "latest_version": "0.9.10",
   "version": "0.9.10",
   "type": "patch",
-  "release_date": "2026-09-06",
+  "release_date": "2026-09-07",
   "title": "SceneVoice v0.9.10 (Micro-Update)",
   "changelog": [
     "Resolucao definitiva do Auto-Updater para clientes 0.9.9 com deteccao instantanea",
@@ -11,8 +11,8 @@
     "Arquitetura ultra-modular com controllers independentes"
   ],
   "download_url": "https://github.com/SamIR52522/scenevoice-releases/releases/download/v0.9.10/core.pak",
-  "sha256": "2f109d6d7f9943e915e02dd7658912fe7e29c55821c8d7a6fe7b27b243981710",
-  "file_size_kb": 2280.3,
+  "sha256": "1053300d6a32d740550031894b2b9fe873c41f3ade49f10787ebd4c89cc5710c",
+  "file_size_kb": 2280.4,
   "file_size_mb": 2.227,
   "is_critical": false
 }
