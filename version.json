@@ -1,19 +1,20 @@
 {
-  "latest_version": "0.9.10",
-  "version": "0.9.10",
+  "latest_version": "0.9.11",
+  "version": "0.9.11",
   "type": "patch",
   "release_date": "2026-09-07",
-  "title": "SceneVoice v0.9.10 (Micro-Update)",
+  "title": "SceneVoice v0.9.11 (Micro-Update)",
   "changelog": [
-    "Resolucao definitiva do Auto-Updater para clientes 0.9.9 com deteccao instantanea",
-    "Eliminacao de notificacao redundante pos-atualizacao via deteccao de patch ativo",
-    "Video preview dinamico no Editor de Falas sem tela preta",
-    "Restauracao da agulha Playhead da timeline visivel em repouso e reproducao 60 FPS",
-    "Arquitetura ultra-modular com controllers independentes"
+    "Reproducao de takes fluida em 60 FPS sem congelamento",
+    "Eliminacao definitiva de tela preta e flicker no play/stop",
+    "Remocao completa da barra/animacao OSD do MPV",
+    "Sincronismo atomico audio-video no Frame 0",
+    "Preservacao de vozes de personagens nao dublados (Shen/Goku)",
+    "Correcao no download de videos do YouTube com legendas"
   ],
-  "download_url": "https://github.com/SamIR52522/scenevoice-releases/releases/download/v0.9.10/core.pak",
-  "sha256": "73dc0688e27fc1ae53fe93208c89891f6b63272df2495e5902df47a42c364dd0",
-  "file_size_kb": 2282.5,
-  "file_size_mb": 2.229,
+  "download_url": "https://github.com/SamIR52522/scenevoice-releases/releases/download/v0.9.11/core.pak",
+  "sha256": "9e86bd0f9c852d6931e853ed3f518cc34b36e2547f8715007aa133f93da6eb0d",
+  "file_size_kb": 2288.8,
+  "file_size_mb": 2.235,
   "is_critical": false
 }

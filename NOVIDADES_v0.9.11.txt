@@ -1,0 +1,38 @@
+================================================================================
+  SCENEVOICE STUDIO PRO - NOVIDADES v0.9.11 (PLAYBACK DE CINEMA & CORRECOES)
+================================================================================
+
+1. REPRODUCAO DE TAKES FLUIDA E SEM CONGELAMENTO (MPV DIRECT3D 11)
+   - Correcao definitiva do estado de pausa no motor de video nativo: ao dar play
+     no take gravado ou no trecho de referencia, o video roda instantaneamente
+     e de forma continua em 60 FPS na GPU.
+   - Seek inteligente em memoria (20ms a 50ms) sem recarregar o container de video
+     para takes da mesma cena.
+
+2. ELIMINACAO DEFINITIVA DE TELA PRETA (ZERO FLICKER)
+   - Transicao atomica ultra-suave entre o thumbnail de repouso e o video acelerado.
+   - O thumbnail so e desocultado no exato milissegundo em que os quadros de video
+     ja estao sendo apresentados na GPU.
+   - Eliminacao de comandos de descarregamento destrutivos no termino da fala,
+     mantendo a tela do estudio sempre estavel e limpa.
+
+3. REMOCAO COMPLETA DA BARRA E ANIMACAO OSD
+   - Desativacao total da barra de progresso / seek nativa do MPV. O take inicia
+     direto na cena sem nenhum elemento visual indesejado sobreposto ao video.
+
+4. SINCRONIA ATOMICA AUDIO-VIDEO NO FRAME 0
+   - O audio via sounddevice e o relogio da agulha de reproducao sao disparados
+     em sincronia absoluta no primeiro quadro renderizado.
+
+5. ISOLAMENTO DE AUDIO DE ESTUDIO & PRESERVACAO DE VOZES ORIGINAIS
+   - Preservacao 100% autentica das vozes originais em falas nao gravadas
+     (personagens nao dublados), garantindo experiencia de estudio perfeita.
+   - Atenuacao acustica superior a -80 dB na remocao da voz antiga em takes dublados.
+
+6. CORRECOES NO DOWNLOAD DO YOUTUBE COM LEGENDAS
+   - Estabilizacao da importacao de videos do YouTube e sanitizacao automatica
+     de legendas em tempo real.
+
+================================================================================
+  Copyright (c) 2026 SceneVoice Studio. Todos os direitos reservados.
+================================================================================
