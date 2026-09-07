@@ -1,0 +1,28 @@
+================================================================================
+  SCENEVOICE STUDIO PRO - NOVIDADES v0.9.10 (ATUALIZACAO GERAL & REPAROS)
+================================================================================
+
+1. COMPATIBILIDADE UNIVERSAL DO AUTO-UPDATER & ZERO CACHE
+   - Resolucao definitiva da deteccao de micro-atualizacoes para todos os
+     usuarios da versao base v0.9.9 e sub-versoes.
+   - Sistema de comparacao semantica flexivel e cache-busting instantaneo
+     com fallback via API do GitHub Releases para entrega imediata de patches.
+
+2. VIDEO PREVIEW DO EDITOR DE FALAS TOTALMENTE FUNCIONAL
+   - Extracao dinamica de frames de video de alta precisao ao selecionar
+     qualquer fala da cena, com redimensionamento cinema HD e zero tela preta.
+
+3. AGULHA DA LINHA DO TEMPO (PLAYHEAD) VISIVEL EM REPOUSO E REPRODUCAO
+   - Restauracao completa da agulha de reproducao tanto no Editor de Falas
+     quanto na Cabine de Gravacao.
+   - Atualizacao a 60 FPS fluidos durante a reproducao, com preservacao de
+     indicador visual vermelho no ponto zero/repouso.
+
+4. ARQUITETURA MODULAR DE ALTA PERFORMANCE
+   - Desacoplamento do nucleo do estudio em modulos ultra-leves e testaveis
+     (PlaybackController, RecordingController, ScriptController, AppUpdater).
+   - Inicializacao e fechamento ultra-estaveis e seguros.
+
+================================================================================
+  Copyright (c) 2026 SceneVoice Studio. Todos os direitos reservados.
+================================================================================

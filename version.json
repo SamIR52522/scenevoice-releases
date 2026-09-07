@@ -1,18 +1,18 @@
 {
-  "latest_version": "0.9.9.36",
-  "version": "0.9.9.36",
+  "latest_version": "0.9.10",
+  "version": "0.9.10",
   "type": "patch",
   "release_date": "2026-09-06",
-  "title": "SceneVoice v0.9.9.36 (Micro-Update)",
+  "title": "SceneVoice v0.9.10 (Micro-Update)",
   "changelog": [
-    "Correcao no Video Preview do Editor de Falas (extracao dinamica de frame de video)",
-    "Restauracao completa da agulha Playhead da timeline no Editor e na Cabine",
-    "Suporte ultra-robusto a argumentos de agulha e prevencao de interrupcao de clock",
-    "Renderizacao comparativa Silhouette com agulha Playhead sempre visivel em repouso e reproducao"
+    "Resolucao definitiva do Auto-Updater para clientes 0.9.9 com deteccao instantanea",
+    "Video preview dinamico no Editor de Falas sem tela preta",
+    "Restauracao da agulha Playhead da timeline visivel em repouso e reproducao 60 FPS",
+    "Arquitetura ultra-modular com controllers independentes"
   ],
-  "download_url": "https://github.com/SamIR52522/scenevoice-releases/releases/download/v0.9.9.36/core.pak",
-  "sha256": "055d5ff9369180c28c6d3a1061cfa2883c11b3fa368b84f235c36e3b9be17893",
-  "file_size_kb": 2277.9,
-  "file_size_mb": 2.225,
+  "download_url": "https://github.com/SamIR52522/scenevoice-releases/releases/download/v0.9.10/core.pak",
+  "sha256": "2f109d6d7f9943e915e02dd7658912fe7e29c55821c8d7a6fe7b27b243981710",
+  "file_size_kb": 2280.3,
+  "file_size_mb": 2.227,
   "is_critical": false
 }
