@@ -1,9 +1,9 @@
 {
-  "latest_version": "0.9.12",
-  "version": "0.9.12",
+  "latest_version": "0.9.12.1",
+  "version": "0.9.12.1",
   "type": "full",
   "release_date": "2026-09-07",
-  "title": "SceneVoice v0.9.12 (Drag & Drop Nudge & Estabilidade)",
+  "title": "SceneVoice v0.9.12.1 (Atualização Oficial de Estabilidade & Nudge)",
   "changelog": [
     "Ajuste fino de sincronia arrastando diretamente na onda sonora (Drag & Drop Nudge)",
     "Silhueta fantasma e snap magnético em 0ms para alinhamento milimétrico de takes",
