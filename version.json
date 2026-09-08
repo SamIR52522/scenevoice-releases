@@ -1,9 +1,9 @@
 {
   "latest_version": "0.9.12",
   "version": "0.9.12",
-  "type": "patch",
+  "type": "full",
   "release_date": "2026-09-07",
-  "title": "SceneVoice v0.9.12 (Micro-Update)",
+  "title": "SceneVoice v0.9.12 (Drag & Drop Nudge & Estabilidade)",
   "changelog": [
     "Ajuste fino de sincronia arrastando diretamente na onda sonora (Drag & Drop Nudge)",
     "Silhueta fantasma e snap magnético em 0ms para alinhamento milimétrico de takes",
@@ -11,9 +11,9 @@
     "Limpeza automática de cache e purga de takes órfãos para higiene de disco",
     "Proteção contra microfone desconectado (hot-plug sem crash) com fallback suave"
   ],
-  "download_url": "https://github.com/SamIR52522/scenevoice-releases/releases/download/v0.9.12/core.pak",
-  "sha256": "8bce7b8c1377e76ea49c8622b039a870cbcb3f85b3eb2e5755caf0d65732200d",
-  "file_size_kb": 2306.0,
-  "file_size_mb": 2.252,
+  "download_url": "https://github.com/SamIR52522/scenevoice-releases/releases/download/v0.9.12/SceneVoice_v0.9.12_update.zip",
+  "sha256": "0e57dded29593010784d3e5709d0083e47d9fd2a963a278a9d8347b4c669c037",
+  "file_size_mb": 553.94,
+  "file_size_kb": 567239.6,
   "is_critical": false
 }
